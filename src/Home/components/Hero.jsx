@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { homevid, leftvector, rightvector, vector } from '../../assets';
 import { GlowButton } from './glow-button';
@@ -52,22 +52,22 @@ const HeroSection = () => {
     }
   };
 
+
   return (
     <div className="relative w-full pt-[20vh] min-h-[100vh] bg-black overflow-hidden flex flex-col items-center justify-center px-4 font-['Montserrat']" id='home'>
       {/* Full-width background image positioned at bottom */}
       <motion.div 
-        className="absolute top-[30vh] inset-x-0 bottom-0 z-10 w-full"
+        className="absolute top-[40vh] md:top-[30vh]  inset-x-0 bottom-0 z-10 w-full"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
       >
-      <video autoPlay loop muted className="w-[100vw] h-[100vh] ">
+      <video  autoPlay loop muted className="w-[100vw] h-[100vh] ">
         <source src={homevid} />
       </video>
       </motion.div>
       
       {/* Gradient overlay */}
-      <div className="absolute z-10 top-[30vh] inset-x-0 h-[70vh] bg-gradient-to-b from-[#0a0a0a] via-[#0a0a0a] to-blue-500 opacity-40 "></div>
 
       {/* Content */}
       <motion.div 
@@ -123,7 +123,7 @@ const HeroSection = () => {
               alt="Wave pattern"
               width={400}
               height={80}
-              className="h-full object-contain"
+              className="h-full -z-10 object-contain"
             />
           </motion.div>
 
@@ -156,7 +156,7 @@ const HeroSection = () => {
 
       {/* Blue gradient at bottom */}
       <motion.div 
-        className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-blue-900/80 to-transparent z-0"
+        className="absolute bottom-0 z-10 left-0 w-full h-1/3 bg-gradient-to-t from-blue-900/80 to-transparent z-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.3 }}
