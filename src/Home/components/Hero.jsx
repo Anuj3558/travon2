@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { leftvector, rightvector, vector } from '../../assets';
+import { homevid, leftvector, rightvector, vector } from '../../assets';
 import { GlowButton } from './glow-button';
 import { motion } from 'framer-motion';
 const HeroSection = () => {
@@ -53,19 +53,21 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full pt-[20vh] min-h-[100vh] bg-[#0a0a0a] overflow-hidden flex flex-col items-center justify-center px-4 font-['Montserrat']" id='home'>
+    <div className="relative w-full pt-[20vh] min-h-[100vh] bg-black overflow-hidden flex flex-col items-center justify-center px-4 font-['Montserrat']" id='home'>
       {/* Full-width background image positioned at bottom */}
       <motion.div 
-        className="absolute top-[77vh] inset-x-0 bottom-0 z-10 w-full"
+        className="absolute top-[30vh] inset-x-0 bottom-0 z-10 w-full"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
       >
-  <img src={vector} alt="" />
+      <video autoPlay loop muted className="w-[100vw] h-[100vh] ">
+        <source src={homevid} />
+      </video>
       </motion.div>
       
       {/* Gradient overlay */}
-      <div className="absolute top-[30vh] inset-x-0 h-[70vh] bg-gradient-to-b from-[#0a0a0a] via-[#0a0a0a] to-blue-500 opacity-40 z-0"></div>
+      <div className="absolute z-10 top-[30vh] inset-x-0 h-[70vh] bg-gradient-to-b from-[#0a0a0a] via-[#0a0a0a] to-blue-500 opacity-40 "></div>
 
       {/* Content */}
       <motion.div 

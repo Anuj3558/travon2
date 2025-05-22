@@ -11,7 +11,8 @@ import External from "./External.png";
 import  multi from "./Multing.jpg";
 import FeatureImage from "./FeatureImage.png"
 import animatiomWave from "./Animation - 1747840642508.gif"
+import homevid from "./Home vid.mp4"
 export { leftvector, rightvector ,
     vector, logo
-    , Knowldege,Low,Custom, Ultra,FeatureImage, Bring, External, multi,animatiomWave
+    , Knowldege,Low,Custom, Ultra,FeatureImage, Bring, External, multi,animatiomWave,homevid
 };
