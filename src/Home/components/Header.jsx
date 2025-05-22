@@ -194,7 +194,7 @@ export default function Navbar() {
                 
                 {/* Glow button (appears on hover) */}
                 <div className="absolute top-0 left-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <GlowButton fullWidth>Book Demo</GlowButton>
+                  <GlowButton fullWidth><a href="#contact">Book Demo</a></GlowButton>
                 </div>
               </div>
             </motion.div>
