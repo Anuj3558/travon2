@@ -194,8 +194,6 @@ const IntegrationSection = () => {
       {/* Right Marquee Section with 3 closer columns and larger icons */}
       <div className="w-full pl-16  lg:w-1/2  h-[50vh] flex sm:h-screen overflow-hidden relative">
         {/* Enhanced gradient fade effects */}
-        <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-b from-black via-black/80 to-transparent z-10 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-black via-black/80 to-transparent z-10 pointer-events-none"></div>
 
         {/* First column - Upward Marquee */}
         <div className=" h-full overflow-hidden relative">
