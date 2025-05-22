@@ -7,6 +7,5 @@ export{
     herky,
     Flyfin,             
     as,
-    vid
 
 }

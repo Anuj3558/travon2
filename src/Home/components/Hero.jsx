@@ -3,7 +3,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { leftvector, rightvector, vector } from '../../assets';
 import { GlowButton } from './glow-button';
 import { motion } from 'framer-motion';
-import {vid } from "../../assets/Audios/audio"
 const HeroSection = () => {
   const industries = [
     'Recruitment',

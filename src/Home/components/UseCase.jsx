@@ -242,7 +242,7 @@ const IntegratedCardGrid = () => {
           
           {/* Lead Conversion Badge */}
           <div className="inline-flex items-start justify-self-stretch ml-[45%] px-2 py-1 bg-black w-fit border border-emerald-400/30 rounded-full shadow-sm shadow-emerald-400/10 hover:shadow-emerald-400/20 hover:border-emerald-400/50 transition-all duration-500">
-            <span className="text-emerald-400 text-md font-semiboold">
+            <span className="text-emerald-400 text-xs font-semiboold">
               + {card.leadConversion} lead conversion
             </span>
           </div>
