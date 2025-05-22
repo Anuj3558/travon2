@@ -171,13 +171,13 @@ const TestimonialsMarquee = () => {
         <div className="text-center mb-16 px-4">
           <div className="inline-block mb-6">
             <div className="relative inline-flex items-center">
-              <div className="mr-4 hidden md:block">
+              <div className="mr-4  md:block">
                 <img src={leftvector} alt="" />
               </div>
-              <span className="text-white text-xs font-thin tracking-widest uppercase">
+              <span className="text-white text-xs md:w-fit w-full font-thin tracking-widest uppercase">
                 T E S T I M O N I A L S
               </span>
-              <div className="ml-4 hidden md:block">
+              <div className="ml-4  md:block">
                 <img src={rightvector} alt="" />
               </div>
             </div>

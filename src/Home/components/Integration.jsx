@@ -167,7 +167,7 @@ const IntegrationSection = () => {
       {/* Left Content Section with enhanced animations */}
       <div className="w-full lg:w-full flex flex-col justify-center px-5 lg:px-16 py-16 lg:py-0 relative z-10">
         <div className="mb-6">
-          <span className="text-xs font-semibold text-white flex items-center tracking-widest">
+          <span className="text-xs font-thin text-white flex items-center tracking-widest">
             I N T E G R A T I O N S
             <div className="ml-4 text-blue-400">
               <img src={rightvector}lt="" />
@@ -192,7 +192,7 @@ const IntegrationSection = () => {
       </div>
 
       {/* Right Marquee Section with 3 closer columns and larger icons */}
-      <div className="w-full pl-22  lg:w-1/2  h-[50vh] flex sm:h-screen overflow-hidden relative">
+      <div className="w-full pl-16  lg:w-1/3  h-[50vh] flex sm:h-screen overflow-hidden relative">
         {/* Enhanced gradient fade effects */}
         <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-b from-black via-black/80 to-transparent z-10 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-black via-black/80 to-transparent z-10 pointer-events-none"></div>
