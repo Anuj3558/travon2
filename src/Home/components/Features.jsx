@@ -87,9 +87,9 @@ const FeaturesSection = () => {
             <div className="absolute left-full bottom-[-1px] transform -translate-y-1/2 ml-4 w-200 h-2 "><img src={rightvector} alt="" width={200}  height={200}/></div>
             <div className="absolute right-full bottom-[-1px] transform -translate-y-1/2 mr-4 w-50 h-2 "><img src={leftvector} alt="" /></div>
           </div>
-              <h2 className="text-xs max-w-5xl flex-row md:text-5xl font-thin mt-7 text-white mb-3">
+              <h2 className="text-3xl max-w-5xl flex-row md:text-5xl font-thin mt-7 text-white mb-3">
                 AI-Driven <span className="text-blue-400">Features   </span>
-                 <p className="text-gray-400  text-xl mt-7  flex   ">
+                 <p className="text-gray-400 text-xl  md:text-xl mt-7  flex   ">
                 Unlock the Full Potential of Your Data with Advanced AI Solutions
               </p>
               </h2>

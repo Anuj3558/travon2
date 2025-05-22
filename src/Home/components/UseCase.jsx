@@ -306,7 +306,7 @@ const IntegratedCardGrid = () => {
               AI Solutions
             </span>
           </h2>
-          <p className="text-gray-400 text-2xl max-w-3xl mx-auto">
+          <p className="text-gray-400 text-xl md:text-3xl max-w-3xl mx-auto">
             Transform your business processes with our automated systems
           </p>
         </div>
